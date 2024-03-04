@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+body {
+  background-color: #e4eaee;
+  display: grid;
+  margin: 5rem;
+}
+.navsection {
+  display: flex;
+  font-family: "Roboto Mono", monospace;
+  font-size: 1.44rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #172838;
+}
+.navlogo {
+  border-radius: 20rem;
+}
+h1 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 5rem;
+  font-weight: 600;
+  font-style: normal;
+  color: #e03943;
+}
+h2 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 3.5rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #e03943;
+}
+h3 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 2.074rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #e03943;
+}
+.bodycopy {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.44rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #172838;
+  line-height: 2.3rem;
+}
+.redbutton {
+  background-color: #e03943;
+  border-radius: 4rem;
+  color: #e4eaee;
+}
+.gallerygrid {
+  display: grid;
+  grid-template-columns: 15rem 15rem 15rem 15rem;
+  grid-template-rows: 15rem;
+  gap: 2rem;
+}
+.gallerygrid > img {
+  width: 100%;
+}
+
+.copyrights {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  font-weight: 200;
+  font-style: normal;
+  color: #172838;
+}
