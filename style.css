@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
 body {
   background-color: #e4eaee;
-  display: grid;
+
   margin: 5rem;
 }
 .navsection {
@@ -45,6 +45,10 @@ h3 {
   color: #172838;
   line-height: 2.3rem;
 }
+.shoppingsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .redbutton {
   background-color: #e03943;
   border-radius: 4rem;
@@ -59,7 +63,18 @@ h3 {
 .gallerygrid > img {
   width: 100%;
 }
+.eventsection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
+.contactsection {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.contactsection > img {
+  width: 100%;
+}
 .copyrights {
   font-family: "Roboto Mono", monospace;
   font-size: 1rem;
