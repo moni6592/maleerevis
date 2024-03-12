@@ -24,6 +24,7 @@ body {
   position: fixed;
   top: 0;
   width: auto;
+  height: 5rem;
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
@@ -86,10 +87,10 @@ body {
 }
 
 .herosection {
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 7.5em;
-  margin-bottom: 7.5rem;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
 }
 h1 {
   font-family: "Roboto Mono", monospace;
@@ -104,6 +105,8 @@ h2 {
   font-weight: 500;
   font-style: normal;
   color: #e03943;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
 }
 h3 {
   font-family: "Roboto Mono", monospace;
@@ -113,29 +116,41 @@ h3 {
   color: #e03943;
 }
 .bodycopy {
+  padding-left: 5vw;
+  padding-right: 5vw;
   font-family: "Montserrat", sans-serif;
   font-size: 1.44rem;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   color: #172838;
-  line-height: 2.3rem;
+  line-height: 2.5rem;
+}
+.breadcrumbs {
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #e03943;
 }
 .aboutsection {
-  margin-left: 3rem;
-  margin-right: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-left: 6vw;
+  margin-right: 6vw;
+  margin-top: 8vw;
+  margin-bottom: 8vw;
 }
 .shopsection {
   margin-left: 3rem;
   margin-right: 3rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-top: 7.5em;
+  margin-bottom: 7.5rem;
 }
 .cards {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  gap: 1rem;
 }
 
 .product-card {
@@ -144,16 +159,12 @@ h3 {
   border-radius: 8px;
   box-shadow: 0 4px 8px #17283852;
   padding: 1.5rem;
+
   text-align: center;
-  max-width: 30vw;
-  height: auto;
-  margin: 2vw;
 }
 
 .product-card img {
   max-width: 100%;
-
-  height: auto;
 }
 
 .product-card h3 {
@@ -165,8 +176,9 @@ h3 {
 .product-card p {
   color: #172838;
   font-family: "Montserrat", sans-serif;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
+  line-height: 1.5rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -174,40 +186,49 @@ h3 {
 .price {
   display: block;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 1rem;
   color: #172838;
   padding: 1rem;
+  font-family: "Montserrat", sans-serif;
 }
 
-button {
+.button {
   color: #ffffff;
   background-color: #172838;
   font-family: "Montserrat", sans-serif;
   padding: 0.7rem;
   font-weight: 400;
+
   border-radius: 5rem;
   cursor: pointer;
   transition: background-color 0.3s;
 }
 
-button:hover {
+.button:hover {
   background-color: #ffffff;
   text-decoration: underline;
   color: #172838;
+  border: solid 1.5px #172838;
 }
 
-.gallerygrid {
-  display: grid;
-  grid-template-columns: 15rem 15rem 15rem 15rem;
-  grid-template-rows: 15rem;
-  gap: 2rem;
-}
-.gallerygrid > img {
-  width: 100%;
-}
 .eventsection {
+  margin-top: 10vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.eventsection > img {
+  max-width: 50%;
+  border-radius: 15px;
+}
+.gallerygrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.gallerygrid > img {
+  max-width: 20%;
+  border-radius: 15px;
 }
 
 .contactsection {
@@ -215,10 +236,12 @@ button:hover {
   margin-right: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  padding-top: 2rem;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   gap: 3rem;
 }
+
 .contactsection > .contact {
   grid-column: 2;
   display: grid;
@@ -230,6 +253,50 @@ button:hover {
 .contactsection > img {
   grid-column: 1;
   width: 100%;
+  border-radius: 15px;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.44rem;
+  font-weight: 400;
+  font-style: normal;
+  color: #172838;
+  line-height: 2.3rem;
+}
+
+h2 {
+  text-align: center;
+}
+
+.form-group {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  color: #172838;
+  line-height: 2.3rem;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
 }
 
 .footersection {
@@ -251,7 +318,9 @@ button:hover {
   gap: 3rem;
   text-decoration: none;
 }
-
+#message {
+  height: 170px;
+}
 .someicons {
   padding-top: 2rem;
   grid-row: 2;
