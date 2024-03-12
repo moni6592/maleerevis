@@ -1,0 +1,146 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Birdshit/Freedom",
+      "size": "366x305",
+      "orientation": "landscape",
+      "technique": "acrylic",
+      "description": "This acrylic painting, infused with intense feelings, utilizes a striking color palette of red, black, and white. The artist employed the dynamic contrast between these bold hues to evoke a powerful emotional response.",
+      "price": 400,
+      "image": "birdshit-freedom.jpg"
+    },
+
+    {
+      "id": 2,
+      "title": "Black flames/Burning the tower",
+      "size": "297x420",
+      "orientation": "portrait",
+      "technique": "acrylic",
+      "description": "This acrylic painting captivates with its intense theme, featuring a towering structure engulfed in ominous black flames. The composition evokes a visceral emotional response, blending the elements of destruction and intensity, making it a striking and memorable piece.",
+      "price": 500,
+      "image": "black-flames-burning-the-tower.jpg"
+    },
+
+    {
+      "id": 3,
+      "title": "Bright future",
+      "size": "366x305",
+      "orientation": "landscape",
+      "technique": "chalk",
+      "description": "This vibrant abstract artwork, crafted with chalk, is a symphony of colors brought to life by the meticulous use of masking tape. The composition showcases a harmonious interplay of numerous hues, creating a dynamic and visually engaging piece.",
+      "price": 400,
+      "image": "bright-future.jpg"
+    },
+
+    {
+      "id": 4,
+      "title": "Confusion",
+      "size": "305x366",
+      "orientation": "portrait",
+      "technique": "chalk",
+      "description": "This enigmatic abstract artwork, employing white chalk on a black gesso coating, skillfully conveys a facial figure consumed by confusion. The stark contrast between the monochromatic palette and the expressive strokes of chalk adds a sense of mystery and depth to the composition.",
+      "price": 400,
+      "image": "confusion.jpg"
+    },
+
+    {
+      "id": 5,
+      "title": "Destruction",
+      "size": "180x240",
+      "orientation": "portrait",
+      "technique": "chalk",
+      "description": "This poignant abstract chalk artwork portrays a facial figure immersed in profound sadness and guilt, adorned with a wreath on the head. The use of chalk on a textured surface conveys a raw and emotional depth. ",
+      "price": 200,
+      "image": "destruction.jpg"
+    },
+
+    {
+      "id": 6,
+      "title": "Don't speak",
+      "size": "297x420",
+      "orientation": "portrait",
+      "technique": "acrylic",
+      "description": "This abstract acrylic portrait created with dynamic brushstrokes and a diverse color palette blend to evoke a sense of inner turmoil. The distorted features and tumultuous composition create a powerful visual narrative, inviting viewers to explore the emotional complexity within the depicted facial expression.",
+      "price": 500,
+      "image": "dont-speak"
+    },
+
+    {
+      "id": 7,
+      "title": "Feelings/chaos",
+      "size": "240x180",
+      "orientation": "landscape",
+      "technique": "acrylic",
+      "description": "This abstract acrylic artwork bursts with a chaotic array of numerous colors, skillfully intertwining to mirror a kaleidoscope of emotions. The dynamic composition captures the essence of a tumultuous emotional landscape, where vibrant hues collide in an expressive dance. ",
+      "price": 200,
+      "image": "feelings-chaos.jpg"
+    },
+
+    {
+      "id": 8,
+      "title": "Go back to the dark",
+      "size": "240x180",
+      "orientation": "landscape",
+      "technique": "acrylic",
+      "description": "The painting presents a haunting portrayal of a skull, inviting the observer to confront their inner demons within the eerie and unsettling composition. The skeletal form, marked by disquieting distortions, becomes a reflective canvas for viewers to explore and confront the shadows of their own psyche. The artwork captures a visceral and introspective journey, drawing attention to the hidden complexities of the human mind.",
+      "price": 200,
+      "image": "go-back-to-the-dark.jpg"
+    },
+
+    {
+      "id": 9,
+      "title": "Iron repainted 5x",
+      "size": "297x420",
+      "orientation": "portrait",
+      "technique": "acrylic",
+      "description": "This abstract acrylic painting, devoid of recognizable forms, mirrors the evolution of human personality akin to an iron fence repainted multiple times. The layers of color suggest a dynamic narrative of transformation and adaptation, with each repaint symbolizing shifts in character and experience. ",
+      "price": 500,
+      "image": "ironrepainted5x.jpg"
+    },
+
+    {
+      "id": 10,
+      "title": "Pain",
+      "size": "305x366",
+      "orientation": "landscape",
+      "technique": "acrylic",
+      "description": "This acrylic painting poignantly captures the depth of pain and a complex array of emotions within the confines of an expressive eye. The use of brushstrokes and color gradients conveys a visceral sense of anguish and turmoil, offering a profound glimpse into the emotional landscape held within the gaze.",
+      "price": 400,
+      "image": "pain.jpg"
+    },
+
+    {
+      "id": 11,
+      "title": "Salvation",
+      "size": "420x297",
+      "orientation": "landscape",
+      "technique": "acrylic",
+      "description": "This abstract acrylic painting, devoid of distinct forms, subtly suggests a symbolic cross, serving as a metaphor for the sin-laden journey in human life. The absence of concrete shapes allows for a contemplative interpretation, mirroring the complexities of sin and redemption. ",
+      "price": 500,
+      "image": "salvation-copy.jpg"
+    },
+
+    {
+      "id": 12,
+      "title": "Wreath of regret",
+      "size": "420x297",
+      "orientation": "landscape",
+      "technique": "acrylic",
+      "description": "This painting conveys a somber atmosphere, hinting at themes of funeral. The muted tones and elusive forms create an ambiance of introspection, inviting viewers to contemplate the weight of loss and the haunting presence of lingering remorse. The composition serves as a poignant visual reflection on the aftermath of death, capturing the complex emotions that accompany the survival of those left behind.",
+      "price": 500,
+      "image": "wreath-of-regret.jpg"
+    },
+
+    {
+      "id": 13,
+      "title": "You and me in the rain",
+      "size": "297x420",
+      "orientation": "portrait",
+      "technique": "acrylic",
+      "description": "This painting aims to encapsulate the intricate dynamics between two figures, portraying a rich tapestry of complex emotions. The vibrant colors and expressive brushstrokes convey a nuanced interplay of feelings, creating a visual dialogue that transcends explicit representation. The composition invites viewers to interpret the emotional complexity between the figures, fostering a connection with the intricate dance of sentiments unfolding within the artwork.",
+      "price": 500,
+      "image": "you-and-me-in-the-rain.jpg"
+    }
+  ]
+}
