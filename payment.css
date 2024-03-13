@@ -26,17 +26,47 @@ input[type="text"] {
   border-radius: 5px;
 }
 
-button[type="submit"] {
+.buttonback {
+  color: #ffffff;
+  background-color: lightcoral;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.7rem;
+  font-weight: 400;
   display: block;
-  width: 100%;
-  padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  width: 70%;
+  text-align: center;
+  margin: 3rem;
+
+  border-radius: 5rem;
   cursor: pointer;
+  transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover {
-  background-color: #0056b3;
+.buttonback:hover {
+  background-color: #ffffff;
+  text-decoration: underline;
+  color: lightcoral;
+  border: solid 1.5px rgb(255, 83, 83);
+}
+.buttonokay {
+  color: #ffffff;
+  background-color: #6ed391;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.7rem;
+  font-weight: 400;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin: 3rem;
+
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonokay:hover {
+  background-color: #ffffff;
+  text-decoration: underline;
+  color: #6ed391;
+  border: solid 1.5px #6ed391;
 }

@@ -159,7 +159,7 @@ h3 {
   border-radius: 8px;
   box-shadow: 0 4px 8px #17283852;
   padding: 1.5rem;
-
+  margin: auto;
   text-align: center;
 }
 
@@ -198,6 +198,10 @@ h3 {
   font-family: "Montserrat", sans-serif;
   padding: 0.7rem;
   font-weight: 400;
+  display: block;
+  width: 70%;
+  text-align: center;
+  margin: 3rem;
 
   border-radius: 5rem;
   cursor: pointer;
@@ -219,6 +223,7 @@ h3 {
   align-items: center;
   justify-content: center;
   gap: 1em;
+  margin: auto;
 }
 .eventflex > img {
   max-width: 50%;
@@ -230,6 +235,7 @@ h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   padding-top: 2rem;
+  text-align: center;
 }
 
 .galleryflex {
