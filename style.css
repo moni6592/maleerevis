@@ -213,20 +213,36 @@ h3 {
 
 .eventsection {
   margin-top: 10vw;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
 }
-.eventsection > img {
+.eventflex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+}
+.eventflex > img {
   max-width: 50%;
   border-radius: 15px;
 }
-.gallerygrid {
+.gallerysection {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.galleryflex {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
-.gallerygrid > img {
+.galleryflex > img {
   max-width: 20%;
   border-radius: 15px;
 }
